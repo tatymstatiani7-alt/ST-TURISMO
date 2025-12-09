@@ -1,0 +1,45 @@
+.carousel img{
+    height: 500px;
+}
+
+@media screen and (max-width: 700px){
+    .carousel img{
+        height: 300px;
+    }}
+
+  .row, .card{
+    margin-top: 15px;
+}  
+
+.navbar{
+    margin-bottom: 30px;
+
+}
+
+.nav-link:hover {
+  color: #00c6a7 !important;
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+
+
+#Titulo{
+    margin-top: 20px;
+    margin-bottom: 35px;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    color:#1e90ff;
+    
+}
+.card{
+    margin-bottom: 30px !important;
+}
+
+.titulo-degrade {
+  background: linear-gradient(135deg, #1e90ff, #00c6a7);
+  color: #fff;
+  padding: 35px;
+  border-radius: 15px;
+  text-align: center;
+}
